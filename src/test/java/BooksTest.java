@@ -28,9 +28,13 @@ public class BooksTest {
     }
 
     @Test
-    public void getAllBooks_returnAllInstances_ArrayList(){
-        LocalDate datePublished = LocalDate.of(year:2019 , Month:December , dayOfMonth:17);
-        Books testBook = new Books(name:"Habits", author"Derrick Moles", datePublished, noOfPages:123, category:"Personal Development", availability:true);
-        Books SecondBook = new Books("")
+    public void getAllBooks_returnAllInstances_ArrayList() {
+        LocalDate datePublished = LocalDate.of(year:2019, Month:December, dayOfMonth:17);
+        Books testBook = new Books(name:"Habits", author "Derrick Moles", datePublished, noOfPages:123, category:
+        "Personal Development", availability:true);
+        Books secondBook = new Books(name:"Henry", author "J.K.Rowlings", datePublished, noOfPages:150, category:"Personal Development", availability:true);
+        Books thirdBook = new Books(name:"Hulk", author "Mutea", datePublished, noOfPages:228, category:"Personal Development", availability:true);
+         Books testBook = new Books(name:"Hashim", author "Yassir", datePublished, noOfPages:346, category:"Personal Development", availability:true);
+
     }
 }
